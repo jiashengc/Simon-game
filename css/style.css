@@ -1,0 +1,133 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: center;
+}
+
+.simon {
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.mainBody {
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  z-index: 1;
+}
+
+.topleft {
+  background-color: #004d1a;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  float: left;
+  border-radius: 1000px 0 0 0;
+  border-style: solid;
+  border-width: 20px 10px 10px 20px;
+  border-color: #4d4d4d;
+}
+
+.topright {
+  background-color: #800000;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  float: left;
+  border-radius: 0 1000px 0 0;
+  border-style: solid;
+  border-width: 20px 20px 10px 10px;
+  border-color: #4d4d4d;
+}
+
+.bottomleft {
+  background-color: #b3b300;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  float: left;
+  border-radius: 0 0 0 1000px;
+  border-style: solid;
+  border-width: 10px 10px 20px 20px;
+  border-color: #4d4d4d;
+}
+
+.bottomright {
+  background-color: #002db3;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  float: left;
+  border-radius: 0 0 1000px 0;
+  border-style: solid;
+  border-width: 10px 20px 20px 10px;
+  border-color: #4d4d4d;
+}
+
+.count {
+  margin-top: 5px;
+  color: white;
+  font-size: 30px;
+  background-color: #4d4d4d;
+  float: left;
+  width: 100%;
+  height: 35%;
+  position: relative;
+  float: left;
+  border-style: solid;
+  border-width: 10px 10px 10px 10px;
+  border-color: #4d4d4d;
+}
+
+.no {
+  
+}
+
+.game {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.start {
+  background-color: #800000;
+  margin-top: 10px;
+  margin-right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 500px;
+  border-style: solid; 
+  border-color: #330000;
+  border-width: 3px;
+}
+
+.strict {
+  width: 50px;
+  height: 50px;
+}
+
+.tlcolor {
+  background-color: #66ff66;
+}
+
+.trcolor {
+  background-color: #ff471a;
+}
+
+.blcolor {
+  background-color: #ffff1a;
+}
+
+.brcolor {
+  background-color: #4d94ff;
+}
+
+.stcolor {
+  background-color: #ff471a;
+}
